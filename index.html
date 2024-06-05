@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mamadou Diallo</title>
+    <title>Mamadou Bhoye Diallo</title>
 </head>
 <body>
     <header>
         <div class="header-container"> <!--Main div of the overall navigation bar-->
             <div id="profile-picture-container"> <!-- Dive container for profile picture-->
-                <div id="profile-container">   <!-- Dive holds the -->
+                <!-- <div id="profile-container">  
                     <a href="#" >
-                        <img src="profile.jpg" width="70px" height="60px">
+                        <img src="profile.jpg" alt="profile-picture" width="70" height="60">
                     </a>
-                </div>
+                </div> --> 
                 <div class="my-name">
-                    <h2>Mamdou Bhoye Diallo</h2>
+                    <h3>Mamdou Bhoye Diallo</h3>
                 </div>
             </div>
             <!--Dive for navigation links-->
@@ -32,11 +32,11 @@
                        </li>
                        <li>
                             <a href="#" >CONTACT</a>
-                       </li>
-                       <li>
-                            <a href="#" >RESUME</a>
-                        </li>
+                       </li>                    
                     </ul>
+            </div>
+            <div class="resume-container">
+                <a id="resume" href="#" >RESUME</a>
             </div>
         </div>
     </header>   
@@ -60,17 +60,17 @@
             <div class="socials-side-bar">
                 <div class="linkedIn-social">
                     <a href="https://www.linkedin.com" target="_blank">
-                        <img src="linkedin.png" width="45px" height="45px" title="LinkedIn" alt="LinkedIn" >
+                        <img src="linkedin.png" width="45" height="45" title="LinkedIn" alt="LinkedIn" >
                     </a>
                 </div>
                 <div class="instagram">
                     <a href="https://wwww.instagram.com" target="_blank">
-                        <img src="instagram.png" width="45px" height="45px" title="Instagram" alt="Instagram" ">
+                        <img src="instagram.png" width="45" height="45" title="Instagram" alt="Instagram">
                     </a>
                 </div>
                 <div class="github">
                     <a href="https://www.github.com" target="_blank">
-                        <img src="github.png" width="45px" height="45px" title="Github" alt="Github" >
+                        <img src="github.png" width="45" height="45" title="Github" alt="Github" >
                     </a>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                 <div class="css">CSS</div>
                 <div class="python">Python</div>
                 <div class="java">Java</div>
-                <div clas="git">Git</div>
+                <div class="git">Git</div>
                 <div class="Github">Github</div>
                 <div class="Javascript">Javascript</div>
             </div>
@@ -124,6 +124,58 @@
                 <p id="parag">Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
             </div>
         </section>
+        <!--CONTACT ME PAGE-->
+        
+            <h2>CONTACT</h2>
+            <p>Feel free to contact me by submitting the form below and I will get back to you soon as I can.</p>
+            <br>
+            <form class="form=container">
+                <div class="form=div">
+                    <div class="name">
+                        <label for="name">Name</label> <br>
+                        <input type="text" id="name" placeholder="Enter Your Name"> <br>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label> 
+                        <br>
+                        <input type="email" id="email" placeholder="Enter your Email">
+                    </div>
+                    <div class="textarea">
+                        <label for="messsage" class="message">Message</label>
+                        <br>
+                        <textarea name="message" placeholder="Enter Your Message"></textarea>
+                        <br>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" id="submit">
+                    </div>
+                </div>
+            </form>
     </main>
+    <!--Below is the Footer of the page-->
+    <footer class="footer-container">
+        <div class="buttom-page-name">
+            <h4>Mamadou Bhoye Diallo</h4>
+            <p>An emerging software Engineer</p>
+        </div>
+        <div class="buttom-page-socials">
+            <h2>SOCIALS</h2>
+            <ul class="buttom-page-socils-list">
+                <li>
+                    <img src="linkedin.png" width="35"  height="35" alt="LinkedIn" tittle="LinkedIn">
+                </li>
+                <li>
+                    <img src="instagram.png" width="35"  height="35" alt="Instagram" tittle="Instagram">
+                </li>
+                <li>
+                    <img src="github.png" width="35"  height="35" alt="Github" tittle="Github">
+                </li>
+            </ul>
+        </div>
+        
+        <div class="copy-right-container">
+            <p>&copy;Copywright 2024. Made by <strong>Mamadou Bhoye Diallo</strong></p>
+        </div>
+    </footer>
 </body>
 </html>
