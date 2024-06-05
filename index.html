@@ -22,13 +22,13 @@
             <div id="container-for-navigation-links">
                     <ul class="navigation-links">
                        <li>
-                            <a href="#" >HOME</a>
+                            <a href="#my-introduction" >HOME</a>
                        </li>
                        <li>
-                            <a href="#" >ABOUT</a>
+                            <a href="#about-me" >ABOUT</a>
                         </li>
                         <li>
-                            <a href="#" >PROJECTS</a>
+                            <a href="#projects" >PROJECTS</a>
                        </li>
                        <li>
                             <a href="#" >CONTACT</a>
@@ -40,38 +40,90 @@
             </div>
         </div>
     </header>   
-    <!-- Mid section of the body-->
-    <section>
-        <div class="my-introduction">
-            <div class="hey-my-name-is">
-                <h2>HI, MY NAME IS MAMADOU BHOYE DIALLO.</h2>
+    <!-- Main -->
+    <main>
+        <section>
+            <div class="my-introduction" id="my-introduction">
+                <div class="hey-my-name-is">
+                    <h2>HI, MY NAME IS MAMADOU BHOYE DIALLO.</h2>
+                </div>
+                <div>
+                    <p class="introduction paragraph">A computer science student a Georgia State University focusing on Software Engineering.</p>
+                </div>
+                <div class="link-to-projects">
+                    <a href="#">Projects</a>
+                </div>
             </div>
+        </section>
+        <!-- Aside bar for social media accounts-->
+        <aside>
+            <div class="socials-side-bar">
+                <div class="linkedIn-social">
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="linkedin.png" width="45px" height="45px" title="LinkedIn" alt="LinkedIn" >
+                    </a>
+                </div>
+                <div class="instagram">
+                    <a href="https://wwww.instagram.com" target="_blank">
+                        <img src="instagram.png" width="45px" height="45px" title="Instagram" alt="Instagram" ">
+                    </a>
+                </div>
+                <div class="github">
+                    <a href="https://www.github.com" target="_blank">
+                        <img src="github.png" width="45px" height="45px" title="Github" alt="Github" >
+                    </a>
+                </div>
+            </div>
+        </aside>
+        <!-- This for the about me -->
+        <section id="about-me">
             <div>
-                <p class="introduction paragraph">A computer science student a Georgia State University focusing on Software Engineering.</p>
+                <div>
+                    <h2>ABOUT ME</h2>
+                </div>
+                <div>
+                    <p>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and  technology.</p>
+                </div>
             </div>
-            <div class="link-to-projects">
-                <a href="#">Projects</a>
+        </section>
+        <!--Get to know me div-->
+        <section class="get-to-know-me">
+            <div class="desription">
+                <h3>Get to know me</h3>
             </div>
-        </div>
-        <!-- side bar for social media accounts-->
-        <div class="socials-side-bar">
-            <div class="linkedIn-social">
-                <a href="https://www.linkedin.com" target="_blank">
-                    <img src="linkedin.png" width="45px" height="45px" title="LinkedIn" alt="LinkedIn" >
-                </a>
+            <div class="description-details">
+                <p>I am a computer science student concentrating into Software Engineering.<br>Check out some of my work in the <strong>projects</strong> section.<br> I also link 
+                    sharing knowledge related to the stuff that I have learned over the years in <strong>Programming</strong> in general<br>
+                    I am open to intership opportunities where I can contribute, learn and grow. <br>If you have good opportunity that maches my skills and experience then feel free to <strong>contact</strong> me.
+                </p>
             </div>
-            <div class="instagram">
-                <a href="https://wwww.instagram.com" target="_blank">
-                    <img src="instagram.png" width="45px" height="45px" title="Instagram" alt="Instagram" ">
-                </a>
+            <div id="contact-me-link">
+                <a href="#">CONTACT</a>
             </div>
-            <div class="github">
-                <a href="https://www.github.com" target="_blank">
-                    <img src="github.png" width="45px" height="45px" title="Github" alt="Github" >
-                </a>
+        </section>
+        <!--Skills section-->
+        <section class="my-skills">
+            <div class="skills">
+                <h2 id="skills-heading">My Skills</h2>
             </div>
-
-        </div>
-    </section>
+            <div class="list-of-technologies">
+                <div class="html">HTML</div>
+                <div class="css">CSS</div>
+                <div class="python">Python</div>
+                <div class="java">Java</div>
+                <div clas="git">Git</div>
+                <div class="Github">Github</div>
+                <div class="Javascript">Javascript</div>
+            </div>
+        </section>
+        <section class="projects-section">
+            <div class="projects-title">
+              <h2 id="projects">PROJECTS</h2>  
+            </div>
+            <div class="intro-to-projects">
+                <p id="parag">Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
