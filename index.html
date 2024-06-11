@@ -4,44 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mamadou Bhoye Diallo</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <header>
+    
+    <nav class="navigation-bar">
+
         <div class="header-container"> <!--Main div of the overall navigation bar-->
-            <div id="profile-picture-container"> <!-- Dive container for profile picture-->
-                <!-- <div id="profile-container">  
-                    <a href="#" >
-                        <img src="profile.jpg" alt="profile-picture" width="70" height="60">
-                    </a>
-                </div> --> 
+            <div id="profile-picture-container"> 
                 <div class="my-name">
                     <h3>Mamdou Bhoye Diallo</h3>
                 </div>
             </div>
             <!--Dive for navigation links-->
-            <div id="container-for-navigation-links">
-                    <ul class="navigation-links">
-                       <li>
-                            <a href="#my-introduction" >HOME</a>
-                       </li>
-                       <li>
-                            <a href="#about-me" >ABOUT</a>
+            
+                <div id="container-for-navigation-links">
+                    <ul class="navigation-links" type="none">
+                        <li>
+                                <a href="#my-introduction" >HOME</a>
                         </li>
                         <li>
-                            <a href="#projects" >PROJECTS</a>
-                       </li>
-                       <li>
-                            <a href="#" >CONTACT</a>
-                       </li>                    
+                                <a href="#about-me" >ABOUT</a>
+                            </li>
+                            <li>
+                                <a href="#projects" >PROJECTS</a>
+                        </li>
+                        <li>
+                                <a href="#contact-me" >CONTACT</a>
+                        </li>  
+                        <li>
+                            <a id="resume" href="#" >RESUME</a>
+                        </li>                  
                     </ul>
-            </div>
-            <div class="resume-container">
-                <a id="resume" href="#" >RESUME</a>
-            </div>
+                    
+                </div>
+            
+            
         </div>
-    </header>   
+    </nav>  
     <!-- Main -->
-    <main>
+    <main class="main-section">
         <section>
             <div class="my-introduction" id="my-introduction">
                 <div class="hey-my-name-is">
@@ -126,7 +128,7 @@
         </section>
         <!--CONTACT ME PAGE-->
         
-            <h2>CONTACT</h2>
+            <h2 id="contact-me">CONTACT</h2>
             <p>Feel free to contact me by submitting the form below and I will get back to you soon as I can.</p>
             <br>
             <form class="form=container">
@@ -152,7 +154,7 @@
                 </div>
             </form>
     </main>
-    <!--Below is the Footer of the page-->
+    <!--FOOTER OF THE PAGE-->
     <footer class="footer-container">
         <div class="buttom-page-name">
             <h4>Mamadou Bhoye Diallo</h4>
